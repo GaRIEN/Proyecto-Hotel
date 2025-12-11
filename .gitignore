@@ -1,0 +1,81 @@
+########################################
+#       BACKEND (.NET / Visual Studio)
+########################################
+
+# Build results
+**/bin/
+**/obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache
+.vs/
+**/.vs/
+
+# NuGet packages
+*.nupkg
+**/packages/
+*.snupkg
+
+# Logs
+*.log
+*.tlog
+
+# Config transforms
+*.Transform.cs
+*.Transform.dll
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Azure local settings
+local.settings.json
+
+########################################
+#            FRONTEND (Angular)
+########################################
+
+# Dependencies
+Frontend/**/node_modules/
+
+# Build output
+Frontend/**/dist/
+Frontend/**/.angular/
+
+# Editor files
+Frontend/**/.vscode/
+Frontend/**/.idea/
+
+# Angular cache
+Frontend/**/.cache/
+Frontend/**/package-lock.json
+
+
+########################################
+#             GENERAL
+########################################
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+
+# Zips
+*.zip
+*.rar
+
+# Environment files
+.env
+.env.*

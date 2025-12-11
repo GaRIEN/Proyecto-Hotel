@@ -1,0 +1,17 @@
+Backend/.vs/Backend.slnx/v18/.wsuo
+Backend/.vs/Backend.slnx/v18/DocumentLayout.json
+Backend/.vs/VSWorkspaceState.json
+Backend/.vs/slnx.sqlite
+Backend/Hotel/.vs/Hotel.slnx/DesignTimeBuild/.dtbcache.v2
+Backend/Hotel/.vs/Hotel.slnx/FileContentIndex/1cd5a7fa-c34c-4bcd-9b51-7e50f7bcf4dd.vsidx
+Backend/Hotel/.vs/Hotel.slnx/FileContentIndex/78212307-81aa-4dff-907b-d65dfb2860ac.vsidx
+Backend/Hotel/.vs/Hotel.slnx/FileContentIndex/8ec65077-0a55-4035-b668-c696efa25160.vsidx
+Backend/Hotel/.vs/Hotel.slnx/FileContentIndex/d85c2132-8aad-4e0e-bbc0-4754336ac7ee.vsidx
+Backend/Hotel/.vs/Hotel.slnx/FileContentIndex/ef01cc53-24b5-4aa3-b877-b73637337cdc.vsidx
+Backend/Hotel/.vs/Hotel.slnx/v18/.futdcache.v2
+Backend/Hotel/.vs/Hotel.slnx/v18/.suo
+Backend/Hotel/.vs/Hotel.slnx/v18/DocumentLayout.backup.json
+Backend/Hotel/.vs/Hotel.slnx/v18/DocumentLayout.json
+Backend/Hotel/.vs/ProjectEvaluation/hotel.metadata.v10.bin
+Backend/Hotel/.vs/ProjectEvaluation/hotel.projects.v10.bin
+Backend/Hotel/.vs/ProjectEvaluation/hotel.strings.v10.bin
