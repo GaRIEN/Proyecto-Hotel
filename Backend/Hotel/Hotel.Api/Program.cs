@@ -5,8 +5,12 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // 1️⃣ Registrar DbContext
+var connectionString = builder.Configuration.GetConnectionString("HotelConnection")
+    ?? throw new InvalidOperationException("Connection string 'HotelConnection' not found.");
+
 builder.Services.AddDbContext<HotelDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("HotelConnection")));
+    options.UseSqlServer(connectionString));
+
 
 // 2️⃣ Registrar controladores
 builder.Services.AddControllers()
@@ -19,7 +23,15 @@ builder.Services.AddControllers()
 
 // 3️⃣ Registrar Swagger tradicional
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new()
+    {
+        Title = "Hotel API",
+        Version = "v1"
+    });
+});
+
 builder.Services.AddScoped<ReservationService>();
 
 
