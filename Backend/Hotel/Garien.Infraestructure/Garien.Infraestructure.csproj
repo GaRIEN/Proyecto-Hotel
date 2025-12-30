@@ -73,6 +73,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Garien.Application\Garien.Application.csproj" />
     <ProjectReference Include="..\Garien.Core\Garien.Core.csproj" />
+    <ProjectReference Include="..\Multitenancy.Core\Multitenancy.Core.csproj" />
   </ItemGroup>
 
 </Project>

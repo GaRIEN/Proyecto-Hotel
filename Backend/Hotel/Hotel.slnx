@@ -7,6 +7,9 @@
     <Project Path="Garien.Core/Garien.Core.csproj" Id="71300c78-41b0-4842-8a02-4346acaff30a" />
     <Project Path="Garien.Infraestructure/Garien.Infraestructure.csproj" Id="339f49b4-e333-4cba-96c2-5419f91ab6c8" />
   </Folder>
+  <Folder Name="/Multitenancy/">
+    <Project Path="Multitenancy.Core/Multitenancy.Core.csproj" Id="c7ef5984-66cf-435f-b0fb-db55cb024365" />
+  </Folder>
   <Folder Name="/UserAuth/">
     <Project Path="Seguridad.Api/Seguridad.Api.csproj" Id="973691aa-5fa9-4c51-bbb4-cf6ef9bcb1ff" />
     <Project Path="Seguridad.Application/Seguridad.Application.csproj" Id="2a1a2838-b2b6-4164-9feb-00523c2a8787" />
